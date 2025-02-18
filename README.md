@@ -7,4 +7,4 @@ Whether you're hiking through expansive fields, climbing rolling hills, or simpl
 
 This project demonstrates the power of procedural terrain generation and interactive 3D graphics, making it an ideal starting point for anyone interested in game development, 3D graphics, or just the sheer enjoyment of exploring a beautiful, dynamic virtual world. The simplicity of the world allows you to immerse yourself completely in nature without distractions, focusing purely on exploration and the beauty of an endless, ever-changing environment.
 
-project:
+Project: https://woodenboy2128.github.io/1-in-a-world/
