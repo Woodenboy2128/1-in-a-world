@@ -32,12 +32,12 @@ light.position.set(5, 10, 5).normalize();
 scene.add(light);
 
 // Player movement & camera rotation
-camera.position.y = 2; // Player's height from the ground (slightly above ground)
+camera.position.set(0, 5, 10); // Player's height from the ground and initial distance from terrain (Y set to 5)
 let moveSpeed = 0.3;
 let lookSpeed = 0.02;
 let keys = {};
 
-// Camera tilt limits (we don't want to flip the camera upside down)
+// Camera tilt limits (no upside down tilting)
 let cameraTiltX = 0; // Neutral tilt position (horizontal)
 let cameraMaxTilt = Math.PI / 2 - 0.05; // Limit maximum tilt (looking down)
 let cameraMinTilt = -Math.PI / 2 + 0.05; // Limit minimum tilt (looking up)
